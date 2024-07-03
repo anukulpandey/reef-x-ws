@@ -1,0 +1,15 @@
+{
+    // "extends": "@polkadot/dev/config/tsconfig.json",
+    "compilerOptions": {
+      "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "exactOptionalPropertyTypes": false,
+    "noUncheckedIndexedAccess": false,
+    "target": "es2022",
+      "composite": true,
+      "paths": {
+        "@anukulpandey/reef-x-ws": ["./src/browser.ts"]
+      }
+    }
+   }
+  
