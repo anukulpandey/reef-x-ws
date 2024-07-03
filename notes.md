@@ -1,0 +1,1 @@
+probably update build command to use this, for that need to change something int he tsconfig "polkadot-dev-build-ts"
